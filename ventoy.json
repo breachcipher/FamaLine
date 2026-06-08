@@ -1,0 +1,15 @@
+{
+    "control": [
+        {
+            "VTOY_DEFAULT_SEARCH_ROOT": "/"
+        }
+    ],
+    "menu_custom": [
+        {
+            "image": "leakos.iso",
+            "linux": "/boot/vmlinuz",
+            "initrd": "/boot/initrd.img-5.18.19",
+            "options": "init=/init rw console=tty0 debug loglevel=7"
+        }
+    ]
+}
